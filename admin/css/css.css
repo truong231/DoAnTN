@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    padding-top: 40px;
+    color: darkcyan;
+}
+h2{text-align: center;}
+.tbl-admin td>section{
+    margin-top: 10px;
+}
+.tbl-admin td>section a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.accordion_f-header{
+    font-weight: bold;
+    display: flex;
+    padding: 0px 10px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  .accordion_f-item.active .accordion_f-header{
+    color: red;
+  }
+  .accordion_f-item.active .arrow{
+    transform: rotate(180deg);
+  }
+  .accordion_f-body{
+    padding: 0px 20px;
+    display: none;
+  }
+  .accordion_f-body a{
+    padding: 10px 0px;
+    color: gray;
+    text-decoration: none;
+  }
+  .accordion_f-body a:hover{
+    color: red;
+  }
